@@ -50,3 +50,20 @@
 - A level = the signal is held at a constant 1 (HIGH) or 0 (LOW)
 
 - An edge = the signal changes from 0 → 1 (rising edge) or 1 → 0 (falling edge)
+
+# 동기 및 비동기 시스템
+
+1. 비동기(Asynchronous) 시스템:
+각 부품이 자기 멋대로 동작 시간 가짐
+
+누군가는 빨리 반응하고, 누군가는 늦게 반응
+
+결과적으로 타이밍 오류(glitch) 발생 가능
+
+⏰ 2. 동기(Synchronous) 시스템:
+모든 부품이 같은 clock 신호에 맞춰서 딱딱 움직임
+
+예: 모든 flip-flop이 clock의 rising edge에만 상태 변경
+
+→ 결과: 안정적이고 예측 가능한 동작
+
